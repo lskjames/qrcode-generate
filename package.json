@@ -1,15 +1,23 @@
 {
-	"name": "@lskjames/qrcode-generate",
-	"version": "1.0.0",
-	"description": "Removes all spaces from a string",
-  	"license": "MIT",
-  	"repository": "bamblehorse/tiny",
-  	"main": "generate.js",
-  	"keywords": [
-    		"qrcode",
-    		"npm",
-    		"package",
-    		"qrcode-generate",
-		"lskjames"
-  	]
+ "name": "@lskjames/qrcode-generate",
+ "version": "1.0.1",
+ "description": "Removes all spaces from a string",
+ "license": "MIT",
+ "repository": "lskjames/qrcode-generate",
+ "main": "generate.js",
+ "author": "James Lee",
+ "keywords": [
+  "qrcode",
+  "npm",
+  "package",
+  "qrcode-generate",
+  "lskjames"
+ ],
+ "dependencies": {
+  "async": "^3.2.0",
+  "child_process": "^1.0.2",
+  "easyqrcodejs-nodejs": "^4.3.4",
+  "fs": "0.0.1-security",
+  "pdfkit": "^0.12.1"
+ }
 }
