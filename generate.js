@@ -11,12 +11,14 @@ const generateMany = (datas, folderPath,logoPath, savingType, pdfsize, dbtoSave,
 		convertMYQR(data.myurl, data.code, folderPath, logoPath, savingType, pdfsize, dbtoSave, () => {
 			cbdata()
 		})
+	}, (err) => {
+		callback()
 	})
-	callback()
+	
 }
 
 const generateOne = (data, folderPath, logoPath, savingType, pdfsize, dbtoSave, callback) => {
-	convertMYQR(data.myurl, data.code, folderPath, logoPath, savingType, pdfsize, dbtoSave)
+	convertMYQR(data.myurl, data.code, folderPath, logoPath, savingType, pdfsize, dbtoSave, callback)
 }
 
 function convertMYQR(url, code, folderPath, logoPath, savingType, pdfsize, dbtoSave, callback) {
