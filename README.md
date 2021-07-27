@@ -1,7 +1,6 @@
 # @lskjames/qrcode-generate
 
 [![npm (scoped)](https://img.shields.io/npm/v/npm1)](https://www.npmjs.com/package/@lskjames/qrcode-generate)
-[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@bamblehorse/tiny.svg)](https://www.npmjs.com/package/@lskjames/qrcode-generate)
 
 Generate qrcodes into pdf files with customizable physical printed size and saving the QR code into mongodb database.
 QR code generation modules used: https://www.npmjs.com/package/easyqrcodejs-nodejs
